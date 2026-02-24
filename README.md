@@ -2,14 +2,16 @@
 ## ÉTAPE 1 — Préparer Burp Suite
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/295ae3bc-b566-40c2-ae56-15f3b96d9511" />
 ## ÉTAPE 2 — Vérifier le Proxy Listener de Burp
-<img width="1332" height="653" alt="image" src="https://github.com/user-attachments/assets/a1d6c0c8-8bac-4103-8d93-344f2fbf1c2e" />
+<img width="1328" height="637" alt="image" src="https://github.com/user-attachments/assets/3c7dc591-3dcf-4462-a0f8-c08f94ae359c" />
 ## ÉTAPE 3 — Identifier l'adresse IP de votre machine hôte
+
 <img width="540" height="194" alt="image" src="https://github.com/user-attachments/assets/f4514a80-3a38-40da-98cf-14131fba56f6" />
+
 ## ÉTAPE 4 — Configurer le proxy sur l'émulateur Android
 <img width="448" height="864" alt="image" src="https://github.com/user-attachments/assets/82bb33f4-dcb2-47a3-b575-0c3b5f556cf1" />
-## Maintenant — Test immédiat !
-![Uploading Screenshot From 2026-02-24 16-47-26.png…]()
-![Uploading image.png…]()
+## Maintenant — Test immédiat 
+<img width="448" height="836" alt="image" src="https://github.com/user-attachments/assets/346dba2c-ce11-4282-b2c8-faf5b1681429" />
+
 
 # Configuration du Proxy Burp Suite
 
