@@ -39,15 +39,15 @@
 ### ÉTAPE 5 — Premier test de capture HTTP
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4e17ed33-7d45-43ed-98b7-844957498340" />
 
-Note du prof — Observez ces détails importants :
+Note  — Observez ces détails importants :
 Dans la requête ligne 1 (Request panel) vous voyez :
-GET / HTTP/1.1
-Host: example.com
-User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit...
-Accept-Language: en-US
-Connection: keep-alive
+GET / HTTP/1.1.
+Host: example.com.
+User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit....
+Accept-Language: en-US.
+Connection: keep-alive.
 
-C'est du HTTP pur — tout est en clair, aucun chiffrement !
+C'est du HTTP pur — tout est en clair, aucun chiffrement !.
 
 
 ✅ Étape 5 validée — La chaîne fonctionne parfaitement !
