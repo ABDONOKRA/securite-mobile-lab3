@@ -144,6 +144,9 @@ Importer le Certificat CA
 | `Sec-Ch-Ua-Mobile` | ← identifié comme mobile ! |
 | `Sec-Ch-Ua-Platform` | ← OS révélé ! |
 
+Fin de lab — Nettoyage (hygiène)
+
+<img width="382" height="780" alt="image" src="https://github.com/user-attachments/assets/46ad22bd-705b-4390-81a2-43118fd797b5" />
 
 
 ## Recommandations Défensives
