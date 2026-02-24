@@ -89,3 +89,15 @@ C'est du HTTP pur — tout est en clair, aucun chiffrement !.
 |------|-----------------|-------------|
 | HTTP History (passif) | Burp enregistre silencieusement | Observation, audit |
 | Intercept ON (actif) | Burp bloque et attend votre décision | Analyse ciblée, test |
+
+ÉTAPE 8 — Installation du certificat CA Burp 
+
+Télécharger le certificat CA depuis Burp
+
+<img width="1920" height="365" alt="image" src="https://github.com/user-attachments/assets/fb816133-4cfa-43fb-8e7a-3dd6abd24fd7" />
+
+Importer le Certificat CA
+
+<img width="1657" height="909" alt="image" src="https://github.com/user-attachments/assets/58bf603a-c901-46e0-9d76-b5409ce7f381" />
+
+
