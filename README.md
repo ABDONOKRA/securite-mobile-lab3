@@ -134,27 +134,42 @@ Importer le Certificat CA
 
 
 
-Recommandations Défensives
-Pour les développeurs d'applications Android
+## Recommandations Défensives
+Pour les développeurs d'applications Android  
 
-Imposer HTTPS uniquement — utiliser android:usesCleartextTraffic="false"
-dans le AndroidManifest.xml
-Certificate Pinning — lier l'application à un certificat spécifique
-pour empêcher l'interception par proxy même avec un CA installé
-Minimiser les headers révélateurs — réduire les informations
-exposées dans le User-Agent côté applicatif
 
-Pour la sécurisation des cookies
+Imposer HTTPS uniquement — utiliser android:usesCleartextTraffic="false"  
 
-Toujours utiliser les attributs : Secure, HttpOnly, SameSite=Strict
-Ne jamais transmettre de tokens de session dans l'URL
+dans le AndroidManifest.xml  
 
-Bonnes pratiques Android générales
+Certificate Pinning — lier l'application à un certificat spécifique  
 
-Ne jamais installer de certificat CA externe sur un appareil de production
-Utiliser le Network Security Config d'Android pour contrôler
-les connexions autorisées
-Retirer tout certificat de labo après les tests
+pour empêcher l'interception par proxy même avec un CA installé  
+
+Minimiser les headers révélateurs — réduire les informations  
+
+exposées dans le User-Agent côté applicatif  
+
+
+Pour la sécurisation des cookies  
+
+
+Toujours utiliser les attributs : Secure, HttpOnly, SameSite=Strict  
+
+Ne jamais transmettre de tokens de session dans l'URL  
+
+
+Bonnes pratiques Android générales   
+
+
+Ne jamais installer de certificat CA externe sur un appareil de production  
+
+Utiliser le Network Security Config d'Android pour contrôler  
+
+les connexions autorisées  
+
+Retirer tout certificat de labo après les tests  
+
 
 
 
