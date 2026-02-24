@@ -15,7 +15,7 @@
 
 # Configuration du Proxy Burp Suite
 
-## ✅ Configuration réseau
+##  Configuration réseau
 
 | Élément | Valeur | Statut |
 |---------|--------|--------|
@@ -61,9 +61,9 @@ C'est du HTTP pur — tout est en clair, aucun chiffrement !.
 
 | Élément    | Valeur    | Risque    |
 |---|---|---|
-| Cookies    | ❌ Aucun    | ✅ Normal pour example.com  |
-| Données sensibles   | ❌ Aucune    | ✅ OK    |
-| User-Agent    | ✅ Visible en clair    | 🔴 Fingerprinting possible |
+| Cookies    |  Aucun    |  Normal pour example.com  |
+| Données sensibles   |  Aucune    |  OK    |
+| User-Agent    |  Visible en clair    | 🔴 Fingerprinting possible |
 | Protocole    | HTTP pur    | 🔴 Tout est lisible    |
 
 # analyse de requete 
@@ -73,10 +73,18 @@ C'est du HTTP pur — tout est en clair, aucun chiffrement !.
 |---------|--------|-------------|-----------------|
 | **GET / HTTP/1.1** | Méthode GET sur / | Demande la page principale en HTTP/1.1 | Information de base |
 | **Host** | example.com | Le serveur cible | Burp sait exactement où va la requête |
-| **Upgrade-Insecure-Requests** | 1 | Le navigateur préfère HTTPS si possible | ⚠️ Accepte HTTP quand même |
+| **Upgrade-Insecure-Requests** | 1 | Le navigateur préfère HTTPS si possible |  Accepte HTTP quand même |
 | **User-Agent** | Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 Chrome/133.0.0.0 Mobile Safari/537.36 | Révèle OS (Linux/Android 10), moteur (Chrome 133), type (Mobile) | 🔴 Fingerprinting possible |
 | **Accept** | text/html, application/xhtml+xml... | Types de contenu acceptés | Information sur les capacités |
 | **Accept-Encoding** | gzip, deflate, br | Compressions acceptées | Information technique |
 | **Accept-Language** | en-US, en | Langue du navigateur | 🔴 Peut révéler la localisation |
 | **Connection** | keep-alive | Connexion persistante | Information technique |
  
+##  ÉTAPE 7 — Interception contrôlée
+<img width="1920" height="865" alt="image" src="https://github.com/user-attachments/assets/688b83c2-2e9c-4a68-bf3f-e21f66377160" />
+# Modes d'interception Burp Suite
+
+| Mode | Ce qui se passe | Utilisation |
+|------|-----------------|-------------|
+| HTTP History (passif) | Burp enregistre silencieusement | Observation, audit |
+| Intercept ON (actif) | Burp bloque et attend votre décision | Analyse ciblée, test |
