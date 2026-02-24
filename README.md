@@ -22,8 +22,10 @@ Cible testée  = http://example.com + https://example.com
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/295ae3bc-b566-40c2-ae56-15f3b96d9511" />
 ## ÉTAPE 2 — Vérifier le Proxy Listener de Burp
-<img width="1328" height="637" alt="image" src="https://github.com/user-attachments/assets/3c7dc591-3dcf-4462-a0f8-c08f94ae359c" />
-## ÉTAPE 3 — Identifier l'adresse IP de votre machine hôte
+<img width="1328" height="637" alt="image" src="https://github.com/user-attachments/assets/3c7dc591-3dcf-4462-a0f8-c08f94ae359c" />  
+
+## ÉTAPE 3 — Identifier l'adresse IP de votre machine hôte  
+
 
 <img width="540" height="194" alt="image" src="https://github.com/user-attachments/assets/f4514a80-3a38-40da-98cf-14131fba56f6" />
 
