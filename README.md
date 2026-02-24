@@ -64,7 +64,8 @@ Cible testée  = http://example.com + https://example.com
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4e17ed33-7d45-43ed-98b7-844957498340" />
 
 Note  — Observez ces détails importants :
-Dans la requête ligne 1 (Request panel) vous voyez :
+Dans la requête ligne 1 (Request panel)  :  
+
 {   
 "method": "GET",   
 "path": "/",   
