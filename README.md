@@ -41,7 +41,8 @@
 
 Note  — Observez ces détails importants :
 Dans la requête ligne 1 (Request panel) vous voyez :
-{ "method": "GET",   
+{   
+"method": "GET",   
 "path": "/",   
 "protocol": "HTTP/1.1",   
 "headers": { "Host": "example.com",  
@@ -54,6 +55,16 @@ C'est du HTTP pur — tout est en clair, aucun chiffrement !.
 
 ✅ Étape 5 validée — La chaîne fonctionne parfaitement !
 Émulateur → 10.0.2.2:8081 → Burp → Internet ✅
+
+ ## ÉTAPE 6 — Lire une requête comme un analyste
+ # Bilan analytique :
+
+| Élément    | Valeur    | Risque    |
+|---|---|---|
+| Cookies    | ❌ Aucun    | ✅ Normal pour example.com  |
+| Données sensibles   | ❌ Aucune    | ✅ OK    |
+| User-Agent    | ✅ Visible en clair    | 🔴 Fingerprinting possible |
+| Protocole    | HTTP pur    | 🔴 Tout est lisible    |
 
 
  
