@@ -103,9 +103,11 @@ Importer le Certificat CA
 # Transférer le certificat vers l'émulateur
 
 <img width="1206" height="194" alt="image" src="https://github.com/user-attachments/assets/4939ca38-2dfc-42bd-9c3b-9c20e5d70b38" />
+# Installed CERTIFICAT 
 
+<img width="348" height="753" alt="image" src="https://github.com/user-attachments/assets/a7a4f7dd-b5bf-406a-ac5d-c87f5bf6e24a" />
 
-
+<img width="1920" height="680" alt="image" src="https://github.com/user-attachments/assets/3bff9b2b-8dc3-480c-ab08-92ce9910534d" />
 
 
 
