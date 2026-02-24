@@ -9,7 +9,7 @@
 
 ## ÉTAPE 4 — Configurer le proxy sur l'émulateur Android
 <img width="448" height="864" alt="image" src="https://github.com/user-attachments/assets/82bb33f4-dcb2-47a3-b575-0c3b5f556cf1" />
-## Maintenant — Test immédiat 
+##  Maintenant — Test immédiat 
 <img width="448" height="864" alt="image" src="https://github.com/user-attachments/assets/346dba2c-ce11-4282-b2c8-faf5b1681429" />
 
 
