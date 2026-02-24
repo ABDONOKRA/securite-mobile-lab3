@@ -111,6 +111,14 @@ Importer le Certificat CA
 
 
 
+###  Ce que révèlent ces en-têtes :
+
+| En-tête | Information révélée |
+|---------|---------------------|
+| `HTTP/2` | ← HTTP/2 sur HTTPS ! |
+| `Sec-Ch-Ua` | ← fingerprint navigateur |
+| `Sec-Ch-Ua-Mobile` | ← identifié comme mobile ! |
+| `Sec-Ch-Ua-Platform` | ← OS révélé ! |
 
 
 
