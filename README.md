@@ -41,7 +41,13 @@
 
 Note  — Observez ces détails importants :
 Dans la requête ligne 1 (Request panel) vous voyez :
-{ "method": "GET", "path": "/", "protocol": "HTTP/1.1", "headers": { "Host": "example.com", "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit....", "Accept-Language": "en-US", "Connection": "keep-alive" } }
+{ "method": "GET",   
+"path": "/",   
+"protocol": "HTTP/1.1",   
+"headers": { "Host": "example.com",  
+"User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit....",   
+"Accept-Language": "en-US",   
+"Connection": "keep-alive" } }
 
 C'est du HTTP pur — tout est en clair, aucun chiffrement !.
 
