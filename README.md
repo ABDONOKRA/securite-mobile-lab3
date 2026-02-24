@@ -81,8 +81,9 @@ C'est du HTTP pur — tout est en clair, aucun chiffrement !.
 | **Connection** | keep-alive | Connexion persistante | Information technique |
  
 ##  ÉTAPE 7 — Interception contrôlée
-<img width="1920" height="865" alt="image" src="https://github.com/user-attachments/assets/688b83c2-2e9c-4a68-bf3f-e21f66377160" />
-# Modes d'interception Burp Suite
+<img width="1920" height="865" alt="image" src="https://github.com/user-attachments/assets/688b83c2-2e9c-4a68-bf3f-e21f66377160" />  
+
+### Modes d'interception Burp Suite
 
 | Mode | Ce qui se passe | Utilisation |
 |------|-----------------|-------------|
