@@ -1,5 +1,17 @@
 # securite-mobile-lab3
 ## ÉTAPE 1 — Préparer Burp Suite
+
+Date/Heure    = 24 Février 2026, 17:54
+OS Hôte       = Fedora Linux 6.13.12 x86_64
+Burp Version  = Community Edition v2026.1.4
+IP_HOTE       = 10.0.2.2
+PORT_PROXY    = 8081
+Émulateur     = Android Studio (Android 10)
+Cible testée  = http://example.com + https://example.com
+
+
+
+
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/295ae3bc-b566-40c2-ae56-15f3b96d9511" />
 ## ÉTAPE 2 — Vérifier le Proxy Listener de Burp
 <img width="1328" height="637" alt="image" src="https://github.com/user-attachments/assets/3c7dc591-3dcf-4462-a0f8-c08f94ae359c" />
