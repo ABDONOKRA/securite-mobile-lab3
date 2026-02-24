@@ -66,5 +66,17 @@ C'est du HTTP pur — tout est en clair, aucun chiffrement !.
 | User-Agent    | ✅ Visible en clair    | 🔴 Fingerprinting possible |
 | Protocole    | HTTP pur    | 🔴 Tout est lisible    |
 
+# analyse de requete 
+# Analyse des en-têtes HTTP
 
+| En-tête | Valeur | Explication | Impact sécurité |
+|---------|--------|-------------|-----------------|
+| **GET / HTTP/1.1** | Méthode GET sur / | Demande la page principale en HTTP/1.1 | Information de base |
+| **Host** | example.com | Le serveur cible | Burp sait exactement où va la requête |
+| **Upgrade-Insecure-Requests** | 1 | Le navigateur préfère HTTPS si possible | ⚠️ Accepte HTTP quand même |
+| **User-Agent** | Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 Chrome/133.0.0.0 Mobile Safari/537.36 | Révèle OS (Linux/Android 10), moteur (Chrome 133), type (Mobile) | 🔴 Fingerprinting possible |
+| **Accept** | text/html, application/xhtml+xml... | Types de contenu acceptés | Information sur les capacités |
+| **Accept-Encoding** | gzip, deflate, br | Compressions acceptées | Information technique |
+| **Accept-Language** | en-US, en | Langue du navigateur | 🔴 Peut révéler la localisation |
+| **Connection** | keep-alive | Connexion persistante | Information technique |
  
