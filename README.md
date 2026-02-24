@@ -1,13 +1,21 @@
 # securite-mobile-lab3
 ## ÉTAPE 1 — Préparer Burp Suite
 
-Date/Heure    = 24 Février 2026, 17:54
-OS Hôte       = Fedora Linux 6.13.12 x86_64
-Burp Version  = Community Edition v2026.1.4
-IP_HOTE       = 10.0.2.2
-PORT_PROXY    = 8081
-Émulateur     = Android Studio (Android 10)
-Cible testée  = http://example.com + https://example.com
+Date/Heure    = 24 Février 2026, 17:54    
+
+
+OS Hôte       = Fedora Linux 6.13.12 x86_64  
+
+Burp Version  = Community Edition v2026.1.4  
+
+IP_HOTE       = 10.0.2.2  
+
+PORT_PROXY    = 8081  
+
+Émulateur     = Android Studio (Android 10)  
+
+Cible testée  = http://example.com + https://example.com  
+
 
 
 
